@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Card, CardHeader, CardMedia, CardContent, CardActions, Avatar, IconButton, Typography } from "@mui/material";
-import { Favorite, FavoriteBorder, ChatBubbleOutline, Send } from "@mui/icons-material";
+import { Favorite, FavoriteBorder, ChatBubbleOutline } from "@mui/icons-material";
 import "../component/style/Feed.css"; // 스타일 파일 추가
 
 // 기본 게시물 데이터

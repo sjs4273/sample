@@ -3,7 +3,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../component/style/ProfilePage.css";
 
-const Fourth = () => {
+const ProfilePage = () => {
   const navigate = useNavigate();
 
   const goToProfileEdit = () => {
@@ -40,9 +40,8 @@ const Fourth = () => {
         <button className="out" onClick={goToDelete}>계정 탈퇴</button>
       </div>
 
-     
     </>
   );
 };
 
-export default Fourth;
+export default ProfilePage;

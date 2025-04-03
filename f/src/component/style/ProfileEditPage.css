@@ -1,0 +1,79 @@
+
+  
+  .profile-change {
+    position: relative;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    text-align: center;
+    height: 100vh;
+    margin: 0 auto;
+  }
+  
+  .back {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: 0;
+    z-index: 1000;
+  }
+  
+  .set {
+    margin-right: 290px;
+  }
+  
+  h4 {
+    text-align: left;
+  }
+  
+  .namechange {
+    width: 100%;
+    height: 25px;
+  }
+  
+  .myself {
+    width: 100%;
+    height: 60px;
+  }
+  
+  .check {
+    position: absolute;
+    bottom: 170px;
+    transform: translateX(-50%);
+    padding: 8px 20px;
+    background-color: #008CFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn2 {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .down-container {
+    position: fixed; /* ✅ 화면 하단에 고정 */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #DCDCDC;
+    padding: 10px 0;
+    z-index: 999; /* 다른 요소 위에 표시되도록 */
+  }
+  
+  
+  
+  .selectbtn {
+    display: flex;
+    justify-content: space-around;
+  }
+  
