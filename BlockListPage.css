@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  .block {
+    position: relative;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    text-align: center;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: auto;
+  }
+  
+  .back {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: 0;
+    z-index: 1000;
+  }
+  
+  .set {
+    text-align: left;
+  }
+  
+  h2 {
+    margin-top: 70px;
+  }
+  
+  .blockbtn {
+    display: flex;
+    align-items: center;
+    gap: 350px;
+    margin: 80px 0;
+  }
+  
+  .blockbtn h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .blbtn {
+    padding: 6px 12px;
+    background: #008cff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .btn2 {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .down-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #DCDCDC;
+    padding: 10px 0;
+  }
+  
+  .selectbtn {
+    display: flex;
+    justify-content: space-around;
+  }
+  

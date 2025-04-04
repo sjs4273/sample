@@ -1,0 +1,70 @@
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+    font-family: Arial, sans-serif;
+   }
+   .btn2{
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.down-container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #DCDCDC;
+    padding: 10px 0;
+}
+.selectbtn {
+   display: flex;
+   justify-content: space-around;
+  }
+  .upbox {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); /* 가운데 정렬 */
+    text-align: center;
+  }
+  
+.namesearch{
+    width: 600px;
+    border-radius: 5px;
+    height: 30px;
+}
+.onebox{
+    margin-top: 70px;
+}
+.chat1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    width: 90vw;               /* 화면의 90% 너비로 설정 */
+    max-width: 100%;           /* 최대 너비 제한 */
+    height: 70px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;    /* padding 포함한 너비 계산 */
+    padding: 0 20px; 
+}
+.chat1:hover {
+    background-color: gray; /* 원하는 hover 색상으로 변경 */
+  }
+  .img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* 원형 이미지 */
+    margin-right: 10px; /* 이미지와 텍스트 간격 */
+  }
+  p{
+    font-size: 8px;
+  }
